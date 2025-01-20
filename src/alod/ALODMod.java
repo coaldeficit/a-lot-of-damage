@@ -10,9 +10,6 @@ import mindustry.mod.Mod;
 public class ALODMod extends Mod{
 
     public ALODMod(){
-        if (Vars.steamPlayerName.equals("Slotterleet"))
-            Log.level = Log.LogLevel.debug;
-
         new DamageDisplay();
     }
 }
